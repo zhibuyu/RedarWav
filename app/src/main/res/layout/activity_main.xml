@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xyu.stu.demo.redarwav.RippleBackground
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rb_color="#0099CC"
+        app:rb_duration="3000"
+        app:rb_radius="32dp"
+        android:layout_centerInParent="true"
+        app:rb_rippleAmount="6"
+        app:rb_scale="6">
+
+        <ImageView
+            android:id="@+id/centerImage"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/phone1" />
+
+        <ImageView
+            android:id="@+id/founditem1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_above="@id/centerImage"
+            android:layout_marginBottom="32dp"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/centerImage"
+            android:src="@mipmap/ic_launcher_round"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/founditem2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="50dp"
+            android:src="@mipmap/phone2"
+            android:visibility="invisible"
+            android:layout_above="@+id/centerImage"
+            android:layout_alignLeft="@+id/centerImage"
+            android:layout_alignStart="@+id/centerImage"
+            android:layout_marginLeft="48dp"
+            android:layout_marginStart="48dp" />
+
+        <ImageView
+            android:id="@+id/founditem3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/centerImage"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/centerImage"
+            android:layout_toRightOf="@+id/centerImage"
+            android:src="@mipmap/ic_launcher_round"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/founditem4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/centerImage"
+            android:layout_toRightOf="@+id/centerImage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="11dp"
+            android:src="@mipmap/phone2"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/founditem5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:visibility="invisible"
+            android:layout_alignTop="@+id/centerImage"
+            android:layout_toRightOf="@+id/centerImage"
+            android:layout_toEndOf="@+id/centerImage"
+            android:layout_marginTop="47dp" />
+
+        <ImageView
+            android:id="@+id/founditem6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/phone2"
+            android:visibility="invisible"
+            android:layout_below="@+id/centerImage"
+            android:layout_alignLeft="@+id/centerImage"
+            android:layout_alignStart="@+id/centerImage"
+            android:layout_marginLeft="47dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="43dp" />
+
+        <ImageView
+            android:id="@+id/founditem7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:visibility="invisible"
+            android:layout_below="@+id/centerImage"
+            android:layout_toLeftOf="@+id/centerImage"
+            android:layout_toStartOf="@+id/centerImage"
+            android:layout_marginTop="30dp" />
+
+        <ImageView
+            android:id="@+id/founditem8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/phone2"
+            android:visibility="invisible"
+            android:layout_alignTop="@+id/centerImage"
+            android:layout_toLeftOf="@+id/centerImage"
+            android:layout_toStartOf="@+id/centerImage"
+            android:layout_marginRight="49dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginTop="46dp" />
+
+        <ImageView
+            android:id="@+id/founditem9"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/centerImage"
+            android:src="@mipmap/ic_launcher_round"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/founditem10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginRight="45dp"
+            android:src="@mipmap/phone2"
+            android:visibility="invisible"
+            android:layout_above="@+id/centerImage"
+            android:layout_toLeftOf="@+id/centerImage"
+            android:layout_toStartOf="@+id/centerImage"
+            android:layout_marginBottom="14dp" />
+    </com.xyu.stu.demo.redarwav.RippleBackground>
+</RelativeLayout>
